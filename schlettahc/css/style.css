@@ -205,7 +205,7 @@ ion-icon{
 }
 
 .bildtext3 h1{
-    font-size: 8.5rem;
+    font-size: 5rem;
 }
 
 .bildtext3 h2{
@@ -719,10 +719,37 @@ form > h1{
 @media screen and (max-width: 730px){
     nav ul{
         display: none;
-        grid-template-areas: "a a"
-        "b b"
-        "c c";
     }
+
+    .bildtext1 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext1 > h2{
+        font-size: 20px;
+    }
+
+    .bildtext2 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext2 > h2{
+        font-size: 20px;
+    }
+
+    .bildtext3 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext3 > h2{
+        font-size: 20px;
+    }
+
+    .carousel{
+        height: 350px;
+    }
+
+
 }
 
 
