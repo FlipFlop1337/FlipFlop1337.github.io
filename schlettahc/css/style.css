@@ -265,7 +265,7 @@ ion-icon{
 
 .match > h2{
     font-size: 0.75rem;
-    margin: 0rem 0rem 1.25rem;
+    margin: 0rem 0rem 0.5rem;
 }
 
 .match > i{
@@ -418,7 +418,7 @@ ion-icon{
 .senastenytt{
     text-transform: uppercase;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1.5625;
+    font-size: 1.5625rem;
     font-weight: 900;
     margin-left: 1.5rem;
 }
@@ -748,6 +748,50 @@ form > h1{
     .carousel{
         height: 350px;
     }
+
+    .nextgame{
+        gap: 0.75rem;
+    }
+
+    .matchlogga1{
+        height: 80px;
+        width: 120px;
+    }
+
+    .matchlogga2{
+        height: 80px;
+        width: 80px;
+    }
+
+    .match{
+        text-align: center;
+        
+    }
+
+    .animated-button1{
+        padding: 0.6rem 1.5rem;
+        
+    }
+
+    .senastenytt{
+        margin-top: 1rem;
+    }
+
+    .image-grid{
+        padding: 2rem 1rem;
+    }
+
+    .image-grid h3{
+        font-size: 11px;
+    }
+
+    .image-grid h4{
+        font-size: 9px;
+    }
+
+
+
+
 
 
 }
