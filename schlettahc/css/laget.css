@@ -63,3 +63,122 @@
   .rubrik{
     padding: 16px;
   }
+
+
+  @media only screen and (max-width: 730px){
+    nav ul{
+        display: none;
+        gap: 0;
+    }
+
+    .logo{
+        margin-left: 15px;
+    }
+
+    .hamburger-icon{
+        display: block;
+    }
+
+    nav ul > li > a{
+        margin: 0;
+    }
+
+    .bildtext1 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext1 > h2{
+        font-size: 20px;
+    }
+
+    .bildtext2 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext2 > h2{
+        font-size: 20px;
+    }
+
+    .bildtext3 > h1{
+        font-size: 45px;
+    }
+
+    .bildtext3 > h2{
+        font-size: 20px;
+    }
+
+    .carousel{
+        height: 350px;
+    }
+
+    .nextgame{
+        gap: 1rem;
+    }
+
+    .matchlogga1{
+        height: 80px;
+        width: 100px;
+    }
+
+    .matchlogga2{
+        height: 80px;
+        width: 80px;
+    }
+
+    .matchlogga2-container{
+        width: auto;
+    }
+
+    .match{
+        text-align: center;
+        
+    }
+
+    .nextgame h2{
+        margin-bottom: 0.25rem;
+    }
+
+    .animated-button1{
+        padding: 0.6rem 1.5rem;
+        margin-top: -1.25rem;
+    }
+
+    .senastenytt{
+        margin-top: 1rem;
+    }
+
+    .image-grid{
+        padding: 2rem 1rem;
+        --row-height: 18rem
+    }
+
+    .image-grid h3{
+        font-size: 15px;
+    }
+
+    .image-grid h4{
+        font-size: 12px;
+    }
+
+
+    .booking{
+        flex-wrap: wrap;
+    }
+
+    .booking > div{
+        width: 100%;
+    }
+
+    .booking-img-text > h1, h2 {
+        font-size: 18px;
+    }
+
+    
+
+
+
+
+
+
+
+}
