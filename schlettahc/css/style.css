@@ -455,6 +455,8 @@ ion-icon{
     
 }
 
+
+
 @media screen and (max-width: 64rem) {
 	.image-grid {
 		--num-cols: 2;
@@ -623,11 +625,7 @@ ion-icon{
       margin-bottom: 1.875rem;
   }
   }
-  @media(max-width: 35.875rem){
-    .footer-col{
-      width: 100%;
-  }
-  }
+
 
   @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 body{
@@ -716,9 +714,73 @@ form > h1{
     font-size: 1.5rem;
 }
 
-@media screen and (max-width: 730px){
+.hamburger-icon{
+    margin: auto 0;
+    display: none;
+    cursor: pointer;
+}
+
+.hamburger-icon div{
+    width: 35px;
+    height: 3px;
+    background-color: black;
+    margin: 6px 10px;
+    transition: 0.4s;
+}
+
+.open .bar1{
+    -webkit-transform: rotate(-45deg) translate(-6px, 6px);
+    transform: rotate(-45deg) translate(-6px, 6px );
+}
+
+.open .bar2{
+    opacity: 0;
+}
+
+.open .bar3{
+    -webkit-transform: rotate(45deg) translate(-6px, -8px);
+    transform: rotate(45deg) translate(-6px, -8px );
+}
+
+.open .mobile-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.mobile-menu{
+    display: none;
+    position: absolute;
+    top: 75px;
+    left: 0;
+    width: 100%;
+    background-color: var(--secondary-color);
+    z-index: 3;
+    
+}
+
+.mobile-menu li{
+    margin-bottom: 10px;
+    
+}
+
+@media only screen and (max-width: 730px){
     nav ul{
         display: none;
+        gap: 0;
+    }
+
+    .logo{
+        margin-left: 15px;
+    }
+
+    .hamburger-icon{
+        display: block;
+    }
+
+    nav ul > li > a{
+        margin: 0;
     }
 
     .bildtext1 > h1{
@@ -750,12 +812,12 @@ form > h1{
     }
 
     .nextgame{
-        gap: 0.75rem;
+        gap: 1rem;
     }
 
     .matchlogga1{
         height: 80px;
-        width: 120px;
+        width: 100px;
     }
 
     .matchlogga2{
@@ -763,14 +825,22 @@ form > h1{
         width: 80px;
     }
 
+    .matchlogga2-container{
+        width: auto;
+    }
+
     .match{
         text-align: center;
         
     }
 
+    .nextgame h2{
+        margin-bottom: 0.25rem;
+    }
+
     .animated-button1{
         padding: 0.6rem 1.5rem;
-        
+        margin-top: -1.25rem;
     }
 
     .senastenytt{
@@ -782,12 +852,25 @@ form > h1{
     }
 
     .image-grid h3{
-        font-size: 11px;
+        font-size: 15px;
     }
 
     .image-grid h4{
-        font-size: 9px;
+        font-size: 12px;
     }
+
+    .booking{
+        flex-wrap: wrap;
+    }
+
+    .booking > div{
+        width: 100%;
+    }
+
+    .booking-img-text > h1, h2 {
+        font-size: 18px;
+    }
+
 
 
 

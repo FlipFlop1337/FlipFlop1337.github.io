@@ -15,7 +15,7 @@
         <script src="https://kit.fontawesome.com/116a9e6ab7.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://use.typekit.net/ocg0fjh.css">
         <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-        <script src="./js/script.js" defer></script>
+        <script src="../js/script.js" defer></script>
         
     </head>
     <body>
@@ -31,9 +31,19 @@
                     <li><a href="#">Nyheter</a></li>
                     <li><a href="#">Shop</a></li>
                     <li><a href="https://www.instagram.com/schletta_hc/"><ion-icon name="logo-instagram"></ion-icon></a></li>
-
-                   
                 </ul>
+            <div class="hamburger-icon" onclick="toggleMobileMenu(this)">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+                <ul class="mobile-menu">
+                    <li><a href="./html/boka.html">Biljetter</a></li>
+                    <li><a href="./html/laget.html">Laget</a></li>  
+                    <li><a href="#">Nyheter</a></li>
+                    <li><a href="#">Shop</a></li>
+                    <li><a href="https://www.instagram.com/schletta_hc/"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                </ul>
+            </div>
             </nav>
 
         </header>
@@ -50,16 +60,16 @@
                 <div>
                     <form>
                         <h1>boka nu</h1>
-                        <label for="name">Name:</label>
+                        <label for="name">Namn:</label>
                         <input type="text" id="name" name="name" required>
                 
                         <label for="email">Email:</label>
                         <input type="text" id="email" name="email" required>
                 
-                        <label for="phone">Phone Number:</label>
+                        <label for="phone">Telefon Nummer:</label>
                         <input type="text" id="phone" name="phone" required>
                 
-                        <label for="game">Game:</label>
+                        <label for="game">Match:</label>
                         <select id="game" name="game">
                             <option value="Team A vs. Team B">Schletta HC vs SC Bern</option>
                             <option value="Team C vs. Team D">Schletta HC vs Centerfold HC</option>
@@ -67,10 +77,10 @@
                             <option value="Team G vs. Team H">Schletta HC vs Team Lavén</option>
                         </select>
                 
-                        <label for="seats">Number of Seats:</label>
+                        <label for="seats">Antal Platser:</label>
                         <input type="number" id="seats" name="seats" required>
                 
-                        <label for="section">Section:</label>
+                        <label for="section">Sektion:</label>
                         <select id="section" name="section">
                             <option value="Lower Bowl">Holgers soffa</option>
                             <option value="Upper Bowl">Share play</option>
@@ -80,7 +90,7 @@
                 
 
                 
-                        <input type="submit" value="Book Now">
+                        <input type="submit" value="Boka Nu">
                     </form>
                 </div>
         </div>

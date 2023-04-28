@@ -15,3 +15,6 @@ buttons.forEach(button => {
     }) 
 })
 
+function toggleMobileMenu(menu){
+    menu.classList.toggle('open');
+}
